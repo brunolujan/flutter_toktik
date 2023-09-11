@@ -6,7 +6,7 @@ class HumanFormats {
       decimalDigits: 0,
       symbol: '',
     ).format(number);
-    
+
     return formatterNumber;
   }
 }
