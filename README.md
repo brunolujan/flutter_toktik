@@ -1,4 +1,4 @@
-# toktik_app
+# Flutter TokTik Application with Provider and local .mp4 files
 
 A new Flutter project.
 
