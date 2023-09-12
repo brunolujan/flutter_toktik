@@ -2,10 +2,10 @@ import 'package:toktik_app/domain/datasources/video_posts_datasource.dart';
 import 'package:toktik_app/domain/entities/video_post.dart';
 import 'package:toktik_app/domain/repositories/video_posts_repository.dart';
 
-class VideoPostsRepository implements VideoPostRepository {
+class VideoPostsRepositoryImpl implements VideoPostRepository {
   final VideoPostDataSource videoDataSource;
 
-  VideoPostsRepository({required this.videoDataSource});
+  VideoPostsRepositoryImpl({required this.videoDataSource});
 
 
   @override
